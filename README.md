@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/rereduw.svg)](https://badge.fury.io/js/rereduw)
+
 # rereduw
 
 This is a library used for generating a sample React(re)-Redux(redu)-Webpack(w) app.
