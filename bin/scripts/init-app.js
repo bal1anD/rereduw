@@ -7,7 +7,7 @@ const readCli = require('../helpers/read-cli')
 
 const initApp = async () => {
   const SOURCE_PATH = '../../skeleton'
-  const DESTINATION_PATH = '../../sample-app/'
+  const DESTINATION_PATH = '../../'
   const PKG_JSON_PATH = DESTINATION_PATH + 'package.json'
   try {
     const result =  await readCli()
