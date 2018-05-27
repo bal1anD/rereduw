@@ -7,8 +7,9 @@ const readCli = require('../helpers/read-cli')
 
 const initApp = async () => {
   const SOURCE_PATH = '../../skeleton'
-  const DESTINATION_PATH = '../../'
-  const PKG_JSON_PATH = DESTINATION_PATH + 'package.json'
+  const DESTINATION_PATH = process.cwd()
+  const PKG_JSON_PATH = DESTINATION_PATH + '/' + 'package.json'
+  console.log('Current working directory ', process.cwd())
   try {
     const result =  await readCli()
     await copyDir(SOURCE_PATH, DESTINATION_PATH)
