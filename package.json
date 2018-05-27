@@ -1,0 +1,21 @@
+{
+  "name": "rereduw",
+  "version": "0.0.0",
+  "description": "Generates a react-redux-webpack app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-app": "node lib/scripts/init-app.js"
+  },
+  "author": "Dibyendu Mukherjee",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^13.3.0",
+    "ncp": "^2.0.0",
+    "yargs": "^11.0.0",
+    "yargs-interactive": "^2.0.0"
+  },
+  "bin": {
+    "create-rereduw-app": "bin/cli.js"
+  },
+  "devDependencies": {}
+}
