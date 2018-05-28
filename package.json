@@ -9,6 +9,7 @@
   "author": "Dibyendu Mukherjee",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.1",
     "joi": "^13.3.0",
     "ncp": "^2.0.0",
     "yargs": "^11.0.0",
