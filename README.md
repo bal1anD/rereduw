@@ -1,5 +1,4 @@
 [![npm version](https://badge.fury.io/js/rereduw.svg)](https://badge.fury.io/js/rereduw)
-[![npm version](https://badge.fury.io/js/yargs.svg)](https://badge.fury.io/js/yargs)
 
 # rereduw
 
